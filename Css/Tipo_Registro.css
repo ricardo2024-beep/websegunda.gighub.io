@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Courier New";
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+     background-image: url(../Imagenes/pru1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+        background-position: center;
+}
+
+form {
+    width: 100%;
+    max-width: 600px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.option-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s;
+    width: 200px; 
+    margin-bottom: 20px; 
+}
+
+.option img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.option:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+
+.option p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
